@@ -1,0 +1,11 @@
+node_modules/
+.gradle/
+build/
+*.jks
+*.keystore
+.env
+.DS_Store
+/android/.gradle
+/android/build
+/ios/Pods
+/ios/Podfile.lock
