@@ -1,8 +1,18 @@
 {
-  "name": "JambGenius",
-  "displayName": "JambGenius",
-  "version": "1.0.0",
-  "description": "Nigeria's Premier JAMB Exam Preparation Platform",
-  "author": "JambGenius Team",
-  "license": "MIT"
+  "expo": {
+    "name": "JambGenius",
+    "slug": "jambgenius",
+    "version": "1.0.0",
+    "assetBundlePatterns": ["**/*"],
+    "platforms": ["android", "ios"],
+    "android": {
+      "package": "com.jambgenius",
+      "versionCode": 1
+    },
+    "extra": {
+      "eas": {
+        "projectId": "israelifeoluwa-jambgenius"
+      }
+    }
+  }
 }
