@@ -15,5 +15,8 @@
         "gradleCommand": ":app:bundleRelease"
       }
     }
+  },
+  "cli": {
+    "version": ">= 8.0.0"
   }
 }
