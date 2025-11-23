@@ -5,18 +5,14 @@
         "buildType": "apk"
       }
     },
-    "preview2": {
-      "android": {
-        "gradleCommand": ":app:assembleRelease"
-      }
-    },
     "production": {
       "android": {
-        "gradleCommand": ":app:bundleRelease"
+        "buildType": "aab"
       }
     }
   },
   "cli": {
-    "version": ">= 8.0.0"
+    "version": ">= 8.0.0",
+    "appVersionSource": "local"
   }
 }
