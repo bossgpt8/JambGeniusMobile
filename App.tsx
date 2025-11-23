@@ -2,18 +2,18 @@ import React, {useEffect, useState} from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {initializeApp} from 'firebase/app';
 import {getAuth, onAuthStateChanged} from 'firebase/auth';
-import AuthStack from './src/navigation/AuthStack';
-import MainStack from './src/navigation/MainStack';
+import AuthStack from './AuthStack';
+import MainStack from './MainStack';
 import {ActivityIndicator, View} from 'react-native';
 
 // Firebase config (use your web app config)
 const firebaseConfig = {
-  apiKey: "AIzaSyBDQYDMH9eqYhs0j4wBO9gIKTJiIRRoTAY",
-  authDomain: "jambgenius-1b8b2.firebaseapp.com",
-  projectId: "jambgenius-1b8b2",
-  storageBucket: "jambgenius-1b8b2.appspot.com",
-  messagingSenderId: "471255099283",
-  appId: "1:471255099283:web:b1c8d9e2f3a4b5c6d7e8f9"
+  apiKey: "AIzaSyCSVbZVsBO8luLUT-HznUQe57FGRZ_2U5g",
+  authDomain: "jambgenius.firebaseapp.com",
+  projectId: "jambgenius",
+  storageBucket: "jambgenius.firebasestorage.app",
+  messagingSenderId: "1057264829205",
+  appId: "1:1057264829205:web:384c075641553eacd95f1c"
 };
 
 // Initialize Firebase
