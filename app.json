@@ -3,17 +3,11 @@
     "name": "JambGenius",
     "slug": "jambgenius",
     "version": "1.0.0",
-    "appId": "com.jambgenius",
     "assetBundlePatterns": ["**/*"],
     "platforms": ["android", "ios"],
     "android": {
       "package": "com.jambgenius",
       "versionCode": 1
-    },
-    "extra": {
-      "eas": {
-        "projectId": "israelifeoluwa-jambgenius"
-      }
     }
   }
 }
