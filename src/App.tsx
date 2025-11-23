@@ -2,8 +2,8 @@ import React, {useEffect, useState} from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {initializeApp} from 'firebase/app';
 import {getAuth, onAuthStateChanged} from 'firebase/auth';
-import AuthStack from './AuthStack';
-import MainStack from './MainStack';
+import AuthStack from './src/navigation/AuthStack';
+import MainStack from './src/navigation/MainStack';
 import {ActivityIndicator, View} from 'react-native';
 
 // Firebase config (use your web app config)
@@ -13,7 +13,8 @@ const firebaseConfig = {
   projectId: "jambgenius",
   storageBucket: "jambgenius.firebasestorage.app",
   messagingSenderId: "1057264829205",
-  appId: "1:1057264829205:web:384c075641553eacd95f1c"
+  appId: "1:1057264829205:web:384c075641553eacd95f1c",
+  measurementId: "G-ZTDYRGNW4N"
 };
 
 // Initialize Firebase
