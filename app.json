@@ -3,24 +3,12 @@
     "name": "JambGenius",
     "slug": "jambgenius",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "platforms": [
-      "android",
-      "ios"
-    ],
+    "sdkVersion": "51.0.0",
+    "assetBundlePatterns": ["**/*"],
+    "platforms": ["android", "ios"],
     "android": {
       "package": "com.jambgenius",
       "versionCode": 1
-    },
-    "extra": {
-      "eas": {
-        "projectId": "19dff682-2826-4e44-bb98-3543c47e450f"
-      }
-    },
-    "ios": {
-      "bundleIdentifier": "com.jambgenius"
     }
   }
 }
