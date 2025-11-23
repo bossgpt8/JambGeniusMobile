@@ -1,0 +1,26 @@
+apply plugin: "com.android.application"
+apply plugin: "com.facebook.react"
+
+android {
+    compileSdkVersion 33
+    ndkVersion "25.1.8981512"
+
+    defaultConfig {
+        applicationId "com.jambgenius"
+        minSdkVersion 21
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.debug
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.facebook.react:react-native:+'
+}
