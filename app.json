@@ -3,7 +3,7 @@
     "name": "JambGenius",
     "slug": "jambgenius",
     "version": "1.0.0",
-    "sdkVersion": "54.0.0",
+    "sdkVersion": "52.0.0",
     "assetBundlePatterns": ["**/*"],
     "platforms": ["android", "ios"],
     "android": {
