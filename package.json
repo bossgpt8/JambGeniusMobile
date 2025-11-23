@@ -2,15 +2,19 @@
   "name": "jambgenius",
   "version": "1.0.0",
   "private": true,
+  "expo": {
+    "plugins": []
+  },
   "scripts": {
-    "android": "expo run:android",
-    "ios": "expo run:ios",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint ."
   },
   "dependencies": {
     "expo": "~51.0.0",
+    "expo-modules-autolinking": "^1.10.1",
     "react": "18.2.0",
     "react-native": "0.74.0",
     "@react-navigation/native": "^6.1.9",
